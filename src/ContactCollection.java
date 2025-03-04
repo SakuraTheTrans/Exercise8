@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 
 public class ContactCollection {
-    private ArrayList<ContactInfo> contacts = new ArrayList<ContactInfo>();
+    private ArrayList<ContactInfo> contacts = new ArrayList<>();
 
-    public ArrayList<ContactInfo> getContacts(int i) {
+    public ArrayList<ContactInfo> getContacts() {
         return contacts;
     }
 
